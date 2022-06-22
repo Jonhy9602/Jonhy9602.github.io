@@ -1,0 +1,264 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	
+	}
+body{
+	font: 75% small-caps, serif;
+	line-height: 1.88889;
+	color: #242121; 
+	background: #fff url(/img/fondo1.jpg) no-repeat center center fixed; 
+	margin: 0; 
+	padding: 0;
+	cursor: url(/img/puntero.png), default;
+}
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	} 
+
+h3 { 
+	/* font: italic normal 1.9em georgia, sans-serif; */
+	font: 15px small-caps, serif;
+	font-family: cursive;
+	letter-spacing: 0.5px; 
+	margin-bottom: 0; 
+	color: #242121;
+}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #041bec;
+
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #639672;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #711eb4;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+.page-wrapper {  
+	padding: 0 220px 0 220px;  
+	margin: 0; 
+	position: absolute;
+	
+}
+.intro { 
+	min-width: 470px;
+	width: 100%;
+}
+
+header h1 { 
+	background: transparent url(/img/zen.PNG) no-repeat top left;
+	border-radius: 25px;
+	margin-top: 10px;
+	display: block;
+	width: 330px;
+	height: 123px;
+	float: left;
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+
+header h2 { 
+	background: transparent url(/img/Design.PNG) no-repeat top left;
+	border-radius: 5px;
+	margin-top: 58px; 
+	margin-bottom: 40px; 
+	width: 310px; 
+	height: 50px; 
+	float: right;
+	
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+header {
+	padding-top: 120px;
+	height: 87px;
+}
+
+.summary {
+	background-image: radial-gradient(circle at 51.38% 50.24%, #ffffff 0, #ffffff 25%, #ffffff 50%, #f6f1f2 75%, #efe4e8 100%);
+	overflow: hidden;
+	border-radius: 10px;
+	clear: both; 
+	padding-top: 10px;
+	margin: 0px 0px 10px 0px; 
+	width: 100%; 
+	float: center;
+
+}
+
+.summary p {
+	font: 15px small-caps serif;
+	color: #242121;
+	text-align: center;
+}
+	
+
+.preamble {
+	clear: left; 
+	background-image: radial-gradient(circle at 51.38% 50.24%, #ffffff 0, #ffffff 25%, #ffffff 50%, #f6f1f2 75%, #efe4e8 100%);
+	border-radius: 8px;
+	padding: 10px 10px 10px 10px;
+
+}
+.supporting {	
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 4px;
+	background-image: radial-gradient(circle at 51.38% 50.24%, #ffffff 0, #ffffff 25%, #ffffff 50%, #f6f1f2 75%, #efe4e8 100%);
+	border-radius: 10px;
+}
+	
+footer{ 
+	text-align: center; 
+}
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+}
+
+.sidebar {
+	margin-left: 250px;
+	margin-right: 35px; 
+	position: absolute; 
+	top: 500px; 
+	right: 0;
+}
+
+.sidebar .wrapper { 
+	font: small-caps, serif;
+	background-image:  url(https://i.pinimg.com/originals/28/d4/36/28d436823890f7c6e5db2fa201b6a33c.gif);
+	opacity: 0.7;
+	overflow: hidden;
+	border-radius: 10px;
+	padding: 10px; 
+	margin-top: 150px; 
+	width: 130px; 
+}
+.sidebar h3.select { 
+	color: whitesmoke;
+	margin: 10px 0 5px 0; 
+	width: 500px; 
+	height: 20px; 
+
+	/* text-indent: 100%;
+	white-space: nowrap; */
+	overflow: hidden;
+	}
+
+.sidebar h3.archives { 
+	color: whitesmoke;
+	font: 15px small-caps, serif;
+	margin: 25px 0 5px 0; 
+	width:110px; 
+	height: 25px; 
+	
+	/* text-indent: 100%;
+	white-space: nowrap; */
+	overflow: hidden;
+}
+.sidebar h3.resources { 
+	color: whitesmoke;
+	margin: 18px 0 5px 0; 
+	width: 100px; 
+	height: 20px; 
+
+	/* text-indent: 100%;
+	white-space: nowrap; */
+	overflow: hidden;
+}
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	}
+.sidebar li {
+	line-height: 1.5em; 
+	display: block; 
+	padding-top: 5px; 
+	margin-bottom: 5px;
+	list-style-type: none;
+	}
+.sidebar li a:link {
+	color: #c0afe4;
+}
+.sidebar li a:visited {
+	color: #D4CDDC;
+}
+
+.extra1 {
+	background: transparent url(https://i.pinimg.com/originals/ce/39/6a/ce396af7ded1a0322df3f368abd8f1de.gif) top left no-repeat;
+	opacity: 0.5;
+	border-radius: 18px;
+	position: absolute; 
+	top: 130px; 
+	right: 35px; 
+	width: 148px; 
+	height: 500px;
+} 
+.extra2 {
+	background: transparent url(https://i.pinimg.com/originals/51/ea/4a/51ea4ae12a54f46a5d04d583877f2aab.gif) top left no-repeat;
+	border-radius: 18px;
+	opacity: 0.5;
+	position: absolute; 
+	top: 130px;  
+	left: 24px; 
+	width: 148px; 
+	height: 500px;
+} 
+.extra3 {
+	background: transparent url(https://i.pinimg.com/originals/35/27/60/352760dbe3b639cf6c949d58721ab76b.gif) top left no-repeat; 
+	border-radius: 18px;
+	opacity: 0.5;
+	position: absolute; 
+	top: 700px;
+	left: 25px;
+	width: 100%; 
+	height: 100%;
+	max-width: 150px;
+	max-height: 640px;
+	object-fit: contain;
+} 
+footer{
+	background: transparent url(https://thumbs.dreamstime.com/b/humo-niebla-nube-de-la-aislada-en-fondo-negro-m%C3%BAltiple-el-con-los-extremos-afilados-recurso-gr%C3%A1fico-ejemplo-trama-150536554.jpg) top left no-repeat;
+	opacity: 0.7;
+	margin-top: 10px;
+	position: absolute;
+	border-radius: 8px;
+	width: 1200px;
+	height: 100px;
+	left: 35px;
+}
+footer a {
+	position: relative;
+	top: 45px;
+	letter-spacing: 0.6em;
+	background-color: #fcf6f6;
+	border-radius: 3px;
+
+}
